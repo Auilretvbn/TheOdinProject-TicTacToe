@@ -242,8 +242,7 @@ class Board
   #puts "What is the second player's name?"
   #second_player = gets.chomp
   puts "\e[H\e[2J"
-  #if (size > 2 && size < 10)
-  #  game = Game.new(size, "Rinn (X)", "Also Rinn (O)")
-  #  game.game_start
-  
-  
+  if (size > 2 && size < 10)
+    game = Game.new(size, "Rinn (X)", "Also Rinn (O)")
+    game.game_start
+  end
